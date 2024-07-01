@@ -48,3 +48,207 @@ a:hover{
     font-size: 1.5rem;
     /* justify-content: space-between; */
 }
+.imagecontainer{
+    /* border: 3px solid plum; */
+    /* margin: 0 auto; */
+    /* height: 400px; */
+    /* width: 400px; */
+    /* display: flex; */
+}
+.section_text{
+    /* border: 3px solid yellow; */
+    text-align: center;
+    /* align-self: center; */
+}
+img{
+    border-radius: 50%;
+    /* padding: 45px; */
+}
+#profile{
+    border: 3px solid plum;
+    height: 60vh;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+.section_text p{
+    font-weight: 600;
+}
+.sectionp1{
+    text-align: center;
+}
+.sectionp2{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.sectionh1{
+    font-size: 3rem;
+    text-align: center;
+}
+.icon{
+    cursor: pointer;
+    height: 2rem;
+}
+#socialcontainer{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    /* border: 3px solid salmon; */
+    margin-top: 1rem;
+}
+.btncontainer{
+    /* border: 3px dotted red; */
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.btn{
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    /* width: 8rem; */
+}
+.buttoncolor1, .buttoncolor2{
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+.buttoncolor2:hover, .buttoncolor1:hover{
+    cursor: pointer;
+}
+.buttoncolor1{
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+.buttoncolor2:hover{
+    background: rgb(53, 53, 53);
+    color: white;
+}
+.buttoncolor1:hover{
+    background: rgb(0, 0, 0);
+}
+.buttoncolor2{
+    background: white;
+}
+#about{
+    border: 3px solid salmon;
+    padding: 10rem 0;
+}
+.sectioncontainer{
+    height: 80%;
+    /* border: 3px solid brown; */
+    display: flex;
+    /* justify-content: space-around; */
+    width: 80%;
+    margin: 0 auto;
+    gap: 5rem;
+    align-items: center;
+    /* width: 28%; */
+}
+.secpiccontain{
+    /* width: 400px; */
+    /* height: 400px; */
+        /* width: 90%; */
+    border: 1px solid black;
+}
+.aboutpic{
+    border-radius: 2rem;
+    width: 400px;
+    height: 400px;
+}
+.exp{
+    /* border: 1px solid yellow; */
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 2rem;
+    /* width: 50%; */
+}
+/* .experience{
+    border: 1px solid green;
+    padding: 2rem 3rem;
+    border-radius: 30px;
+    text-align: center;
+} */
+.education, .experience{
+    padding: 2rem 3rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-radius: 30px;
+    text-align: center;
+
+}
+.para{
+    width: 77%;
+    /* border: 1px solid blue; */
+    /* text-align: center; */
+}
+#experience{
+    padding: 10rem 0;
+}
+.expdetcon{
+    /* border: 1px solid yellow; */
+    /* display: flex; */
+    width: 70%;
+    margin: 0 auto;
+}
+.aboutcontainer{
+    /* border: 1px solid green; */
+    display: flex;
+    gap: 2rem;
+}
+.detailscontainer{
+    /* border: 1px solid blue; */
+    border: 0.1rem solid rgb(53, 53, 53);
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    flex: 1;
+    text-align: center;
+}
+.experienceh2{
+    /* border: 1px solid green; */
+    color: rgb(53, 53, 53);
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.articlecontainer{
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: space-around;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+article{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 10rem;
+    justify-content: space-around;
+}
+#projects{
+    border: 3px solid salmon;
+    /* margin-top: 2rem; */
+}
+.ivory{
+    border: 3px solid slateblue;
+    margin-top: 2rem;
+}
+.eva{
+    border: 3px solid sandybrown;
+    padding: 2rem;
+}
+.eva img{
+    width: 400px;
+    border-radius: 2rem;
+}
+.soap{
+    border: 3px solid yellow;
+}
+.festo{
+    margin-left: 37rem;
+}
+.buttoncolor2{
+    padding: 2rem;
+    border-radius: 3rem;
+    margin-left: 15rem;
+}    
