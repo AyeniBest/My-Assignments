@@ -1,24 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            Prince Best
-        </div>
-        <div>
-            <ul class="links">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Experience</a></li>   
-                <li><a href="#">Projects</a></li>    
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
+      <div class="logo">Prince Best</div>
+      <div>
+        <ul class="links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </header>
-</body>
+    <section id="profile">
+      <div class="imagecontainer">
+        <img src="images/my_pic.jpg" alt="My Image" style="width: 200px" />
+      </div>
+      <div class="section_text">
+        <p class="sectionp1">Hello, I'm</p>
+        <h1 class="sectionh1">Prince Best</h1>
+        <p class="sectionp2">Frontend Developer</p>
+        <div class="btncontainer">
+          <button class="btn buttoncolor2">Download CV</button>
+          <button class="btn buttoncolor1">Contact Info</button>
+        </div>
+        <div id="socialcontainer">
+          <img
+            class="icon"
+            onclick="location.href='https://google.com'"
+            src="images/github.png"
+            alt="github icon"
+          />
+          <img
+            class="icon"
+            onclick="location.href='https://www.github.com'"
+            src="images/linkedin.png"
+            alt="linkedin icon"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="sectionp1">Get To Know More</p>
+      <h1 class="sectionh1">About Me</h1>
+      <div class="sectioncontainer">
+        <div class="secpiccontain">
+          <img src="images/about-pic.png" alt="About pic" class="aboutpic">
+        </div>
+
+        <div class="second">
+          <div class="exp">
+            <div class="experience">
+              <img
+                class="icon"
+                src="images/experience.png"
+                alt="Experience pict"
+              />
+              <h3>Experience</h3>
+              <p>2+ years</p>
+              <p>Frontend Development</p>
+            </div>
+
+            <div class="education">
+              <img
+                src="images/education.png"
+                alt="education image"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelors Degree</p>
+              <p>M.Sc. Masters Degree</p>
+            </div>
+          </div>
+          <p class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+            reprehenderit et laborum, rem, dolore eum quod voluptate
+            exercitationem nobis, nihil esse debitis maxime facere minus sint
+            delectus velit in eos quo officiis explicabo deleniti dignissimos.
+            Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+            reiciendis ea magnam? Nulla, impedit fuga!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="sectionp1">Explore My</p>
+      <h1 class="sectionh1">Experience</h1>
+
+      <div class="expdetcon">
+          <div class="aboutcontainer">
+            <!-- First container -->
+            <div class="detailscontainer">
+              <h2 class="experienceh2">Frontend Development</h2>
+              <div class="articlecontainer">
+                  <article>
+                      <img class="icon" src="images/checkmark.png" alt="">
+                      <div>
+                        <h3>HTML</h3>
+                        <p>Beginner</p>
+                      </div>
+                  </article>
+                  <article>
+                    <img class="icon" src="images/checkmark.png" alt="">
+                    <div>
+                      <h3>CSS</h3>
+                      <p>Beginner</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img class="icon" src="images/checkmark.png" alt="">
+                    <div>
+                      <h3>SASS</h3>
+                      <p>Beginner</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img class="icon" src="images/checkmark.png" alt="">
+                    <div>
+                      <h3>JS</h3>
+                      <p>Beginner</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img class="icon" src="images/checkmark.png" alt="">
+                    <div>
+                      <h3>TypeScript</h3>
+                      <p>Beginner</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img class="icon" src="images/checkmark.png" alt="">
+                    <div>
+                      <h3>Material UI</h3>
+                      <p>Beginner</p>
+                    </div>
+                  </article>
+              </div>
+            </div>
+
+            <!-- SECOND CONTAINER -->
+            <div class="detailscontainer">
+              <h2 class="experienceh2">Backend Development</h2>
+              <div class="articlecontainer">
+                  <article>
+                      <img class="icon" src="images/checkmark.png" alt="">
+                      <div>
+                        <h3>PostgreSQL</h3>
+                        <p>Basic</p>
+                      </div>
+                  </article>
+                  <article>
+                    <img class="icon" src="images/checkmark.png" alt="">
+                    <div>
+                      <h3>Node JS</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img class="icon" src="images/checkmark.png" alt="">
+                    <div>
+                      <h3>Express JS</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img class="icon" src="images/checkmark.png" alt="">
+                    <div>
+                      <h3>Git</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section id="projects">
+        <p class="sectionp1">Browse My Recont</p>
+        <h1 class="sectionh1">Projects</h1>
+        <div class="ivory">
+            <div class="eva">
+                <img src="images/project-1.png" alt="">
+                <h3 class="festo">Project One</h3>
+                <div class="soap">
+                    <button class="buttoncolor2">Github</button>
+                    <button class="buttoncolor2">Live Demo</button>
+                </div>
+            </div>
+            <div class="eva">
+              <img src="images/project-2.png" alt="">
+              <h3 class="festo">Project Two</h3>
+              <div class="soap">
+                <button class="buttoncolor2">Github</button>
+                <button class="buttoncolor2">Live Demo</button>
+            </div>
+            </div>
+        </div>
+    </section>
+  </body>
 </html>
